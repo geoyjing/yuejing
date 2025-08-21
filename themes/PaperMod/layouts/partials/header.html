@@ -39,6 +39,7 @@
 </script>
 {{- end }}
 
+{{ if not .IsHome }}
 <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -69,7 +70,9 @@
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
                 {{- end -}}
+            {{- if not .IsHome }}
                 {{- $label_text -}}
+            {{- end }}
             </a>
             {{- end }}
             <div class="logo-switches">
@@ -147,3 +150,4 @@
         </ul>
     </nav>
 </header>
+{{ end }}

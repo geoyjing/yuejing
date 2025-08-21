@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://jingyue.github.io/"
+title: GeoFlow Lab @UND
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -9,35 +9,35 @@ pagination:
 
 taxonomies:
     tag: tags
-
+    institution: "institutions" 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
+        - name: People
+          url: people/
+          weight: 1
+        - name: Publications
           url: papers/
           weight: 2
-        - name: Courses
+        - name: Teaching
           url: courses/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Tags
+          url: tags/
+          weight: 4
+          
+
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Yue Jing's research papers, course materials, curriculum vitae, and contact information."
+    author: Yue Jing
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
+    ShowPageContent: true 
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
     ShowPostNavLinks: false
@@ -54,59 +54,58 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
+          title: |
+            <div style="font-size: 1rem; font-weight: 120; color: #000000; margin-bottom: 2rem;">GIS | Transportation Geography | Spatial Network | Maps <span class="dot-typing"></span>
+            </div>
+            <div class="title-default-font" style="font-size: 1.5rem; font-weight: 900;">👋 Hi there! <div>
+          subtitle: |
+            Welcome to my lab page. My name is <strong>Yue Jing</strong> (with Yue pronounced “Yoo-eh”). I am a transportation geographer and an assistant professor at the
+            <a href="https://arts-sciences.und.edu/academics/geography/index.html" class="highlight-link" target="_blank" rel="noopener noreferrer">
+            <strong>Department of Geography & Geographic Information Science</strong></a> at the University of North Dakota</a>. <br><br>
+            
+            My primary interests lie in <strong>GIScience</strong> and <strong>transportation geography</strong>. My research covers topics such as <i>human mobility</i>, <i>transportation & land use</i>, <i>spatial networks</i>,<i>neighborhood change</i>, and <i>urban data science</i>. I enjoy using spatial data and analytical tools to explore real-world questions, from everyday commuting to broader urban dynamics. 
+            <br><br>
+            Check out my <a href="CV.pdf" class="highlight-link" target="_blank" rel="noopener noreferrer"> <strong> CV</strong></a> for more information about me. Feel free to reach out if you'd like to connect or collaborate!
+
+          imageUrl: "round-circle-2.gif"
+          imageWidth: 300
+          imageHeight: 300
+          
           buttons:
-            - name: Papers
+            - name: People
+              url: people/
+            - name: Publications
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
+            - name: Teaching
               url: courses/
             - name: Tags
               url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
 
     socialIcons:
         - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
+          url: CV.pdf
         - name: Location
           url: location/
-        - name: Office Hours
-          url: officehours/
+        - name: Email
+          url: mailto:jingyue94@hotmail.com
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
-        - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://scholar.google.com/citations?user=cLZbL1MAAAAJ&hl=en
+        - name: researchgate
+          url: https://www.researchgate.net/profile/Yue-Jing-6?ev=hdr_xprf
+        - name: linkedin
+          url: https://www.linkedin.com/in/yue-jing-6a941b215/
 
+        
     assets:
         disableScrollBarStyle: true
+        customCSS: ["css/extended/custom.css"]
     cover:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
+      text: "GeoFlow Lab @UND"
+      icon: 
       iconHeight: 18
 
 markup:

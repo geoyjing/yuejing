@@ -1,0 +1,90 @@
+.logo a {
+  font-family: 'Poppins',sans-serif;    /* Custom font */
+  font-size: 1.1rem;                    /* Custom size */
+  font-weight: bold;
+  color: #009A44 !important;            /* Not UND green */
+  text-decoration: underline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+
+.highlight-link {
+    color: ;  
+    text-decoration: underline;
+ 
+}
+
+.highlight-link:hover {
+  color: #6a7ba2;
+}
+
+
+.profile .profile_inner span {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.title-default-font {
+  font-size: 1.55rem;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif; 
+} 
+
+
+/* ProfileMode title and subtitle font */
+.profile .profile_inner h1 {
+    font-family: 'Courier Prime', monospace;  /* or any other font you like */
+    font-weight: 600;
+    font-size: 1rem;  /* adjust size */
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
+
+
+/* Hide summary preview for papers */
+.list.papers .entry-content {
+  display: none;
+}
+
+.profile .buttons a {
+  font-family: 'Courier Prime', serif;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.rotating {
+  animation: spin 5s linear infinite;
+  transform-origin: center center;
+}
+
+body.home .header .header-title {
+  display: none !important;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Poppins Light', sans-serif;
+}

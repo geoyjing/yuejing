@@ -1,0 +1,8 @@
+<div class="group-member" style="display: flex; align-items: center; gap: 1.5rem; font-family: 'Poppins', sans-serif; max-width: 800px; width: 100%; margin-top: 2rem;">
+  <img src="{{ .Get "src" | absURL }}" style="width: 160px; height: 160px; border-radius: 100%; object-fit: cover; flex-shrink: 0;" />
+  <div class="info" style="font-size: 1rem; line-height: 1.5;">
+    <strong style="font-size: 1.2rem;">{{ .Get "name" }}</strong><br>
+    {{ .Get "title" }}<br>
+  </div>
+</div>
+

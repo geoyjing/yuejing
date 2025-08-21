@@ -1,52 +1,53 @@
 ---
-title: "Your Inner Hedgehog" 
-date: 2021-04-06
-tags: ["social psychology","inner hedgehog","academia","experimental psychology","invasive thoughts"]
-author: ["Hilda Schreiber-Ziegler", "Moritz-Maria von Igelfeld"]
-description: "This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021." 
-summary: "Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure." 
-cover:
-    image: "paper3.png"
-    alt: "Vizualisation of an inner hedgehog"
-    relative: true
+title: "The unequal commuting efficiency: A visual analytics approach" 
+date: 2022-04-01
+tags: ["excess commuting","residential neighborhood","visual analytics","commuting network"]
+author: ["Yue Jing", "Yujie Hu"]
+
+summary: "Keywords: excess commuting; residential neighborhood; visual analytics; commuting network" 
+
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Socio-Experimental Psychology"
+    URL: "https://www.sciencedirect.com/science/article/pii/S0966692322000515?casa_token=X0VZcCsEp8sAAAAA:x3gkpjNLVzHlVD0oAS2rq_XjXw1pHx92IpS5M6B674o9FP-gRxE3mzlFnlgvdUe04xe_2vTwFqQ"
+    Text: "Journal of Transport Geography"
 
 ---
 
 ---
 
-##### Download
 
-+ [Paper](paper3.pdf)
-+ [Raw data](https://github.com/pmichaillat/michez-rule)
-
----
 
 ##### Abstract
 
-Using several case studies, this paper describes the inner hedgehog, a psychological condition widespread in academic occupations. The condition has lasting consequences and no known cure. Mauris tincidunt quam a libero consequat, nec pharetra nunc tristique. Pellentesque eget ipsum ut dui laoreet congue ut nec nulla. Nulla facilisi. Sed consequat, odio ac aliquet tempor, turpis augue auctor mauris, at malesuada sem dolor eget libero. Nullam iaculis malesuada risus, id fringilla quam sagittis ac. Fusce congue vel ex et facilisis. Integer volutpat eros ut urna efficitur, id efficitur sapien pharetra.
+Excess commuting measures commuting efficiency by comparing the actual commute with minimum commute for a
+given urban form (Hu and Li, 2021). Despite recent methodological advances, research gaps still exist. Calculating
+the minimum commute requires an optimization process of swapping residences/jobs among workers (White, 1988),
+and many commuter disaggregation approaches have been proposed for more meaningful estimates. This includes
+the disaggregation by occupation type, income, age, and other socioeconomic characteristics or travel behaviors (e.g.,
+Horner et al., 2015 and the references therein; Schleith et al., 2016; Hu and Li, 2021). Nevertheless, most of these
+disaggregation analyses are only focused on a single socioeconomic class, which alone could be ineffective to capture
+the complexity of individuals’ residential (and employment) location choices. Another gap is about the resulting
+statistic and its demonstration. As a global indicator, excess commuting is largely reported as a single statistic
+concerning system-wide commuting efficiency, thus failing to capture and visualize spatial patterns. This research
+aims to fill these gaps. Specifically, we stratify commuters into distinct subgroups by residential neighborhood types
+using multiple socioeconomic variables related to residential and employment characteristics and then measure excess
+commuting across subgroups. Moreover, we create and geovisualize commuting networks associated with the actual,
+optimal, and excess commuter flow patterns to better reveal the spatial interaction patterns between locations and
+the disparities across commuter subgroups.
+
+---
+
+
+##### Figure 1: Visualizing excess commuting
+
+![](visualizations.jpg)
 
 ---
 
 ##### Citation
 
-Schreiber-Ziegler, Hilda, and Moritz-Maria von Igelfeld. 2021. "Your Inner Hedgehog." *Journal of Socio-Experimental Psychology* 131 (2): 1299–1302.
 
-```BibTeX
-@article{SZI21,
-author = {Hilda Schreiber-Ziegler and Moritz-Maria von Igelfeld},
-year = {2021},
-title ={Your Inner Hedgehog},
-journal = {Journal of Socio-Experimental Psychology},
-volume = {131},
-number = {2},
-pages = {1299--1302}}
-```
 
----
+Jing, Y., & Hu, Y. (2022). The unequal commuting efficiency: A visual analytics approach. Journal of Transport Geography, 100, 103328. https://doi.org/10.1016/j.jtrangeo.2022.103328
 
-##### Related material
 
-+ [Nontechnical summary](https://www.alexandermccallsmith.com/book/your-inner-hedgehog)
+
