@@ -65,7 +65,7 @@ params:
             
             My primary interests lie in <strong>GIScience</strong> and <strong>transportation geography</strong>. My research covers topics such as <i>human mobility</i>, <i>transportation & land use</i>, <i>spatial networks</i>,<i>neighborhood change</i>, and <i>urban data science</i>. I enjoy using spatial data and analytical tools to explore real-world questions, from everyday commuting to broader urban dynamics. 
             <br><br>
-            Check out my <a href="CV.pdf" class="highlight-link" target="_blank" rel="noopener noreferrer"> <strong> CV</strong></a> for more information about me. Feel free to reach out if you'd like to connect or collaborate!
+            Check out my <a href="cv.pdf" class="highlight-link" target="_blank" rel="noopener noreferrer"> <strong> CV</strong></a> for more information about me. Feel free to reach out if you'd like to connect or collaborate!
 
           imageUrl: "round-circle-2.gif"
           imageWidth: 300
@@ -84,7 +84,7 @@ params:
 
     socialIcons:
         - name: CV
-          url: CV.pdf
+          url: cv.pdf
         - name: Location
           url: location/
         - name: Email
