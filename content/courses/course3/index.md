@@ -1,5 +1,5 @@
 ---
-title: "Work Shop: Visualizing Geospatial Datasets using Python"
+title: "Workshop: Visualizing Geospatial Datasets using Python"
 date: 2024-03-22
 
 institutions: ["University of Florida"]
