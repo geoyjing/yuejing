@@ -19,7 +19,9 @@ disableAnchoredHeadings: false
 
 
 
+## Introduction
 
+This workshop introduced participants to visualizing geospatial data with Python using Google Colab. It covered the full workflow of mapping in Python—from geocoding addresses and preparing spatial data to creating both static and interactive maps. Participants explored popular Python packages for mapping and learned to use kepler.gl for interactive 3D visualizations.
 
 
 
