@@ -4,7 +4,7 @@ layout: page
 hidemeta: true
 ---
 
-<span font-size: 1.05rem;">
+<span>
 Stayed tuned for upcoming opportunities!
 </span>
 
