@@ -4,7 +4,7 @@ layout: page
 hidemeta: true
 ---
 
-<span style="font-family: 'Poppins', sans-serif; font-size: 1.05rem;">
+<span font-size: 1.05rem;">
 Stayed tuned for upcoming opportunities!
 </span>
 
