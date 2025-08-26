@@ -25,13 +25,6 @@
 }
 
 
-.title-default-font {
-  font-size: 1.55rem;
-  font-weight: 900;
-  font-family: 'Poppins', sans-serif; 
-} 
-
-
 /* ProfileMode title and subtitle font */
 .profile .profile_inner h1 {
     font-family: 'Courier Prime', monospace;  /* or any other font you like */
